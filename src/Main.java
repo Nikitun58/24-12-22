@@ -86,6 +86,7 @@ public class Main {
         if (passenger==101) {System.out.println("В вагоне нет сидячих мест есть только "+freestandingplaces1+" стоячие места");
         }
         else if (passenger >=102) {System.out.println("В вагоне нет мест");
+
         }
 
     }
