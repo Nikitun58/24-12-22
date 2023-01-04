@@ -86,8 +86,36 @@ public class Main {
         if (passenger==101) {System.out.println("В вагоне нет сидячих мест есть только "+freestandingplaces1+" стоячие места");
         }
         else if (passenger >=102) {System.out.println("В вагоне нет мест");
-
         }
+
+        //  задача №3.1
+        System.out.println("задача №3.1");
+        int peopleage=15;
+        if (peopleage>=2 && peopleage<=6){ System.out.println("ему нужно ходить в детский сад");}
+        if (peopleage>=7 && peopleage<=18){ System.out.println("му нужно ходить в школу");}
+        if (peopleage>18 && peopleage<24){ System.out.println("его место в университете");}
+        else if (peopleage>24){ System.out.println("ему пора ходить на работу");}
+
+        //  задача №3.2
+        System.out.println("задача №3.2");
+        int chaild=8;
+        int bigchaild=0;
+        if (chaild<=5){System.out.println("он не может кататься на аттракционе");}
+        if (chaild>5 && chaild<14 && bigchaild>=1){System.out.println("он может кататься только в сопровождении взрослого");}
+        else if(chaild>5 && chaild<14 && bigchaild<=1){System.out.println("взрослого нет, то кататься нельзя");}
+        if (chaild>14){System.out.println("он может кататься без сопровождения взрослого");}
+
+        //  задача №3.3
+        System.out.println("задача №3.3");
+        int one=5;
+        int two=8;
+        int three=18;
+        if (one>two && one>three){ System.out.println("большее число "+one);}
+        else if (two>one && two>three){ System.out.println("большее число "+two);}
+        else  { System.out.println("большее число "+three);}
+
+
+
 
     }
 }
